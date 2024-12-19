@@ -15,7 +15,12 @@ This project implements a Python-based solution for classifying dog images using
 - ResNet
 
 ## Setup
-install python, torch, numpy
+- `install python, torch, numpy`
+
+## To Run this code Locally
+- Go to the data folder by using `cd data` command in terminal.
+- Then write this command `sh run_models_batch.sh` to perform classification on provided dataset.
+- If you want to upload your own custom data to perform classification using these three models, then you have to upload you images into **uploaded_images** folder and run this command `sh run_models_batch_uploaded.sh` in terminal. It will execute the inference on your uploaded data.  
 
  ## Results
 The VGG model achieved the best classification accuracy compared to AlexNet and ResNet.
