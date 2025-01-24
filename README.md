@@ -15,8 +15,9 @@ This project implements a Python-based solution for classifying dog images using
 - ResNet
 
 ## Setup
-- `install python, torch, numpy`
-
+```bash 
+install python, torch, numpy
+```
 ## To Run this code Locally
 - Go to the data folder by using `cd data` command in terminal.
 - Then write this command `sh run_models_batch.sh` to perform classification on provided dataset.
